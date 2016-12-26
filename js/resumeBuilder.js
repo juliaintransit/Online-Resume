@@ -114,12 +114,12 @@ var projects = {
 		"title": "Julia in Transit",
 		"dates": "2012 - Present",
 		"description": "Personal Travel Blog, documenting my four years spent traveling the world.",
-    	"image": ["images/197x148.gif"]
+    	"images": ["images/197x148.gif"]
 	}, {
 		"title": "Interactive Online Portfolio",
 		"dates": "December, 2016",
 		"description": "A Portfolio built with HTML, and CSS.",
-    "image": ["images/197x148.gif"]
+    "images": ["images/197x148.gif"]
 	}]
 }
 
@@ -138,8 +138,8 @@ projects.display = function() {
     $(".project-entry:last").append(formattedDescription);
 
     if (projects.projects[project].images > 0) {
-      for (image in projects.projects[project].images) {
-        var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
+      for (images in projects.projects[project].images) {
+        var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images);
         $(".project-entry:last").append(formattedImage);
       }
 
