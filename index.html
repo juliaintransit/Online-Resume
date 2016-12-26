@@ -23,7 +23,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jQuery.js"></script>
+  <script src="js/helper.js"></script>
 
 
 
@@ -35,8 +37,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-  <div id="main">
-    Hello world!   <!-- You'll be deleting this line in the course -->
+  <div id="main"></div>
+
+
 
     <!--
     Everything from here to the <script> tag below is the skeleton of your
@@ -144,5 +147,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
       document.getElementById('mapDiv').style.display = 'none';
     }
   </script>
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCuxk-ddmmJMj1l-zESZHYsBHQuX0pPMFo">
+  </script> 
 </body>
 </html>
