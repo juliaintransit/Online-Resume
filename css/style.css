@@ -1,9 +1,9 @@
+h1
 body,
 div,
 ul,
 li,
 p,
-h1,
 h2,
 h3,
 h4,
@@ -25,6 +25,7 @@ h6 {
 }
 
 h1 {
+  font-family: 'Zeyada', cursive;
   font-size: 40px;
   color: #10def0;
   line-height: 48px;
@@ -32,6 +33,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Zeyada', cursive;
   font-weight: bold;
   font-size: 24px;
   color: #999;
@@ -102,16 +104,27 @@ a {
 #skills-h3 {
   color: #10def0;
   display: none;
+  font-family: 'Zeyada', cursive;
 }
 
 .orange {
   background-color: #10def0;
+
 }
 
 .orange-text {
+  font-family: 'Zeyada', cursive;
   color: #10def0;
+  font-size: 18px;
 }
+.cursive {
+  font-family: 'Zeyada', cursive;
+  font-size: 20px;
+  color: #999;
+  line-height: 48px;
+  display: inline;
 
+}
 .white-text {
   font-weight: bold;
   color: #fff;
